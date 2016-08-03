@@ -1,0 +1,7 @@
+<div class="center">
+<h2>Hello <%= current_user.name %> </h2>
+<h2>Here is Your New Order, please fullfil the order form below</h2>
+</div>
+<%= render 'form' %>
+
+<%= link_to 'Back', product_orders_path %>
